@@ -1,8 +1,8 @@
+import React from 'react';
 import { func } from 'prop-types';
 import styled from 'styled-components';
 import { Screen } from 'styles';
 import { Brightness } from 'components/svg';
-
 
 const Toggle = ({ toggleTheme }: any) => (
     <BrightnessContainer onClick={toggleTheme} >

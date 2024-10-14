@@ -1,7 +1,7 @@
 import { css } from 'styled-components';
 import { IMedia } from 'types';
 
-const sizes = {
+const sizes: { [key in keyof IMedia]: number } = { // eslint-disable-line
   xlargeScreen: 1440,
   largeScreen: 1200,
   midScreen: 1100,
@@ -20,7 +20,7 @@ export const screen = Object.keys(sizes).reduce((accumulator: any, label) => {
   /** use em in breakpoints to work properly cross-browser and support users
    * changing their browsers font-size: https://zellwk.com/blog/media-query-units/
    */
-  const emSize = sizes[label as keyof typeof sizes] / 16;
+  const emSize = sizes[label as keyof typeof sizes] / 16; // eslint-disable-line
   accumulator[label] = (...args: Parameters<typeof css>) => css`
     @media (max-width: ${emSize}em) {
       ${css(...args)};

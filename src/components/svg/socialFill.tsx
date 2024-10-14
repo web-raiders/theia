@@ -5,8 +5,6 @@ import X from './x';
 import Mail from './mail';
 import Github from './github';
 
-
-
 const SocialFill = ({ name }: any) => {
   switch (name) {
     case 'Instagram':

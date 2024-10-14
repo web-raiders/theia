@@ -13,7 +13,7 @@ export const lightTheme: ITheme['theme'] = {
   loader: Loader,
 };
 
-export const darkTheme: ITheme['theme']  = {
+export const darkTheme: ITheme['theme'] = {
   body: Basics.colors.black,
   logo: Basics.colors.citrus,
   subtitle: Basics.colors.citrus,

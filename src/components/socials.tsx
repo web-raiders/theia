@@ -4,14 +4,12 @@ import { Basics, Screen } from 'styles';
 import { SocialFill } from 'components/svg';
 import { links } from 'config';
 
-
 const SocialContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   margin-top: 20px;
 `;
-
 
 const Item = styled.div`
   position: relative;

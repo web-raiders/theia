@@ -1,5 +1,4 @@
 const links = {
-  
   socials: [
     {
       name: 'Mail',

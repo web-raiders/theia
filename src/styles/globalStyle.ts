@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
+import { ITheme } from 'types';
 import Basics from './basics';
 import Screen from './screen';
-import { ITheme } from 'types';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,400&display=swap');

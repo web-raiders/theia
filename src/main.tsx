@@ -1,12 +1,12 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { lightTheme, darkTheme } from './utils/theme';
-import { DarkMode } from './utils';
 import {
   App,
   ErrorPage,
 } from 'pages';
+import { DarkMode } from './utils';
+import { lightTheme, darkTheme } from './utils/theme';
 
 const Main = () => {
   const { theme, toggleTheme, componentMounted } = DarkMode();

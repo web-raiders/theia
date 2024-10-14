@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { GlobalStyle, Screen } from 'styles';
 
-
 const LoaderContainer = styled.div`
   position: fixed;
   top: 40%;

@@ -1,6 +1,6 @@
 const content = {
   siteUrl: 'https://template.com',
-  bodyText: 
+  bodyText:
     `🤺 <br/>We Build Exceptional Digital Experiences. <br/><br/>
     
     At Web Raiders Studio, we design and develop innovative web and mobile solutions that drive growth and elevate brands. From startups to enterprises, our agile team delivers tailor-made digital products that meet your business needs.

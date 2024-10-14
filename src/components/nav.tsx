@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import { Screen } from 'styles';
 import { Toggle } from 'utils';
 
@@ -16,7 +15,6 @@ const NavContainer = styled.div`
     height: 50px;
   `};
 `;
-
 
 const Nav = ({ toggleTheme }: any) => (
     <NavContainer>

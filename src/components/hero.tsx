@@ -68,7 +68,7 @@ const LogoContainer = styled.div`
   `};
 `;
 
-const App = ({ theme }: any) => (
+const App = () => (
   <HeroContainer>
     <LogoContainer />
     <Title>Web Raiders Studio</Title>
