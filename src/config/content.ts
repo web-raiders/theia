@@ -7,7 +7,7 @@ const content = {
      <br /><br />
 
     🌟<br/>
-    Over the years, we’ve curated a collection of <a href='https://dxnchima.notion.site/Chima-s-Favorite-Articles-Content-78a8cebc34204d0bb4abf198d855d300'>great works</a> for several clients. Our team of designers, developers, and project managers work together to create exceptional digital experiences that drive growth and elevate brands.
+    Over the years, we’ve curated a collection of <a href='https://webraiders.notion.site/Our-Works-1203def1dca8809680feeb1a602f4ac1'>great works</a> for several clients. Our team of designers, developers, and project managers work together to create exceptional digital experiences that drive growth and elevate brands.
     <br /><br />
     
     Let’s turn your vision into reality.
