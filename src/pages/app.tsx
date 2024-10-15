@@ -29,9 +29,9 @@ const App = ({ theme, toggleTheme }: any) => (
           <meta charSet="utf-8" />
           <title>Web Raiders</title>
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content='Web Raiders Studio' />
-          <meta name="twitter:description" content='Design. Develop. Deploy.' />
-          <meta name="twitter:image" content='https://lh3.googleusercontent.com/d/1XAy4QI3D6fHVQGN1GkWog2PEswwLGhQn=w1000' />
+          <meta name="twitter:title" content='Chima' />
+          <meta name="twitter:description" content='Software Engineer' />
+          <meta name="twitter:image" content='https://res.cloudinary.com/dxnchima/image/upload/v1607879575/personal/Screenshot_2020-12-13_at_18.12.27_bfypgd.png' />
         </Helmet>
         <GlobalStyle />
         <Hero />
