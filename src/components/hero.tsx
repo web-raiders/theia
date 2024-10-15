@@ -72,7 +72,7 @@ const App = () => (
   <HeroContainer>
     <LogoContainer />
     <Title>Web Raiders Studio</Title>
-    <SubTitle>Design. Deploy. Develop</SubTitle>
+    <SubTitle>Product. Design. Develop.</SubTitle>
     <BodyText dangerouslySetInnerHTML={{ __html: content.bodyText }} />
     <Socials />
   </HeroContainer>
