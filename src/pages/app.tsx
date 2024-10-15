@@ -27,16 +27,11 @@ const App = ({ theme, toggleTheme }: any) => (
       <AppContainer>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>Web Raiders Studio</title>
-          <meta name='description' content="We Build Exceptional Digital Experiences" />
-          <meta property="og:type" content="website" />
-          <meta property="og:title" content="Web Raiders Studio" />
-          <meta property="og:description" content="We Build Exceptional Digital Experiences" />
-          <meta property="og:image" content="https://lh3.googleusercontent.com/d/1XAy4QI3D6fHVQGN1GkWog2PEswwLGhQn=w1000?authuser=0" />
+          <title>Web Raiders</title>
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:title" content='Web Raiders Studio' />
-          <meta name="twitter:description" content='We Build Exceptional Digital Experiences.' />
-          <meta name="twitter:image" content='https://lh3.googleusercontent.com/d/1XAy4QI3D6fHVQGN1GkWog2PEswwLGhQn=w1000?authuser=0' />
+          <meta name="twitter:description" content='Design. Develop. Deploy.' />
+          <meta name="twitter:image" content='https://lh3.googleusercontent.com/d/1XAy4QI3D6fHVQGN1GkWog2PEswwLGhQn=w1000' />
         </Helmet>
         <GlobalStyle />
         <Hero />
