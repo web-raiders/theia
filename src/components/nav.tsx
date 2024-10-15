@@ -9,7 +9,7 @@ const NavContainer = styled.div`
   bottom: 0;
   left: 0;
   margin: 0 auto;
-  background-color: ${({ theme }) => theme.body};
+  background-color: transparent;
   width: 100%;
   ${Screen.largePhone`
     height: 50px;

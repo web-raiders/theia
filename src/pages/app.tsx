@@ -16,10 +16,10 @@ const AppContainer = styled.div`
     margin: 10px 80px 100px 80px;
   `};
   ${Screen.miniTablet`
-    margin: 100px 50px 100px 50px;
+    margin: 10px 50px 100px 50px;
   `};
   ${Screen.largePhone`
-    margin: 50px 10px 30px 10px;
+    margin: 30px 10px 30px 10px;
   `};
 `;
 

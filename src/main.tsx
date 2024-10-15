@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import {
   App,
   ErrorPage,
@@ -16,12 +16,10 @@ const Main = () => {
   }
   return (
       <ThemeProvider theme={themeMode}>
-        <Router>
-          <Routes>
-            <Route path='/' element={<App theme={theme} toggleTheme={toggleTheme}/>} />
-            <Route path='/404' element={<ErrorPage theme={theme} toggleTheme={toggleTheme}/>} />
-          </Routes>
-        </Router>
+        <Routes>
+          <Route path='/' element={<App theme={theme} toggleTheme={toggleTheme}/>} />
+          <Route path='/404' element={<ErrorPage theme={theme} toggleTheme={toggleTheme}/>} />
+        </Routes>
       </ThemeProvider>
   );
 };
